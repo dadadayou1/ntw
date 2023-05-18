@@ -6,7 +6,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 
 
 
-def test1():
+def login():
     browser = webdriver.Chrome()
     # искать каждый элемент в течение 5 секунд
     browser.implicitly_wait(5)
@@ -30,7 +30,7 @@ def test1():
     browser.quit()
 
     time.sleep(15) 
-test1()
+login()
 
  
 
